@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Package</id>
+    <version>1.0.0</version>
+    <authors>Adrian Vega</authors>
+    <owners>Adrian Vega</owners>
+    <licenseUrl>https://spdx.org/licenses/AFL-1.1.html</licenseUrl>
+    <projectUrl></projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This library help you to upload file and showing images gallery</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>Tag1 Tag2</tags>
+    <dependencies>
+      <dependency id="SampleDependency" version="1.0" />
+    </dependencies>
+  </metadata>
+</package>
+
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>TestDemo</id>
+    <version>1.0.0</version>
+    <authors>Tester</authors>
+    <owners>Tester</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>TestDemo</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Tag1 Tag2</tags>
+  </metadata>
+  <files>
+    <file src="MultipleDll\*.*" target="lib\net461" />
+  </files>
+</package>
